@@ -1,0 +1,30 @@
+{
+  "name": "assignment-4",
+  "version": "1.0.0",
+  "description": "This is my assignment 4 of back end development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beerdavindersingh/Sem---3-B-E-Assign_4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Beerdavindersingh/Sem---3-B-E-Assign_4/issues"
+  },
+  "homepage": "https://github.com/Beerdavindersingh/Sem---3-B-E-Assign_4#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
