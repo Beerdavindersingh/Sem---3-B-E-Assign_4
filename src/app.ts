@@ -2,7 +2,7 @@
 import express, { Express } from "express";
  
 import itemRoutes from "./api/v1/routes/itemRoutes";
-import userRoutes from "./api/v1/routes/userRoutes";
+import loanRoutes from "./api/v1/routes/loanRoutes";
 import adminRoutes from "./api/v1/routes/adminRoutes";
 import errorHandler from "./api/v1/middleware/errorHandler";
 import {
@@ -55,7 +55,7 @@ app.get("/api/v1/health", (req, res) => {
 // Route Imports START
 // "/api/v1/items" will prefix all item routes
 app.use("/api/v1/items", itemRoutes);
-app.use("/api/v1/users", userRoutes);
+app.use("/api/v1/users", loanRoutes);
 app.use("/api/v1/admin", adminRoutes);
  
 // Route Imports END
