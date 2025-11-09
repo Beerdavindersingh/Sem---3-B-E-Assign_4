@@ -1,15 +1,13 @@
 // import the express application and type definition
 import express, { Express } from "express";
  
-import itemRoutes from "./api/v1/routes/itemRoutes";
 import loanRoutes from "./api/v1/routes/loanRoutes";
 import adminRoutes from "./api/v1/routes/adminRoutes";
-import errorHandler from "./api/v1/middleware/errorHandler";
 import {
     accessLogger,
     errorLogger,
     consoleLogger,
-} from "./api/v1/middleware/logger";
+} from "../src/api/v1/middleware/logger";
  
 // initialize the express application
 const app: Express = express();
@@ -54,9 +52,8 @@ app.get("/api/v1/health", (req, res) => {
  
 // Route Imports START
 // "/api/v1/items" will prefix all item routes
-app.use("/api/v1/items", itemRoutes);
 app.use("/api/v1/users", loanRoutes);
-app.use("/api/v1/admin", adminRoutes);
+
  
 // Route Imports END
  
