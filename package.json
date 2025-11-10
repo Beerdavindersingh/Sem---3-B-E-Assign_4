@@ -1,0 +1,40 @@
+{
+  "name": "assignment-4",
+  "version": "1.0.0",
+  "description": "This is my assignment 4 of back end development",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beerdavindersingh/Sem---3-B-E-Assign_4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Beerdavindersingh/Sem---3-B-E-Assign_4/issues"
+  },
+  "homepage": "https://github.com/Beerdavindersingh/Sem---3-B-E-Assign_4#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/jest": "^30.0.0",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.10.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "firebase-admin": "^13.6.0",
+    "morgan": "^1.10.1"
+  }
+}
