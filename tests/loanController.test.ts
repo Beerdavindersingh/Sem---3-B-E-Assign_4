@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction} from "express";
 import { HTTP_STATUS } from "../src/constants/httpConstants";
-import * as loanController from "../src/api/v1/controllers/loanController";
+import * as loanController from "../src/api//v1/controllers/loanController";
 
 
 describe("Loan Controller", () => {
