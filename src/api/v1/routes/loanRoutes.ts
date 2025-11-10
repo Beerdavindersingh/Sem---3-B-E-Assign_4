@@ -13,10 +13,7 @@ router.post("/",
     loanController.createLoan);
  
 //List all loans
-router.get("/",
-    authenticate,
-    isAuthorized({ hasRole: ["admin", "manager"]} as AuthorizationOptions),
-    loanController.getAllLoans);
+router.get("/",loanController.getAllLoans);
  
 //Review a specific loan
 router.post("/:id/review",

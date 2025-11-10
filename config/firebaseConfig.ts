@@ -3,7 +3,7 @@ import { getFirestore, Firestore } from "firebase-admin/firestore";
 import { getAuth, Auth } from "firebase-admin/auth";
 
 // You'll n eed to replace this with your actual service account file name
-import serviceAccount from "assignment-4-bed-3e639-firebase-adminsdk-fbsvc-0e606592ad.json";
+import serviceAccount from "../assignment-4-bed-3e639-firebase-adminsdk-fbsvc-0e606592ad.json";
 
 // initialize the Firebase app with our service account key
 initializeApp({
